@@ -8,9 +8,9 @@ app = Flask(__name__)
 CORS(app)
 
 # Metered Secret Key
-METERED_SECRET_KEY = 'iiXJuorkB87kj3vOJqgfWVCPEmiKJBX59zzBRlO-cTMhnWNz'
+METERED_SECRET_KEY = 'SECRET_KEY'
 # Metered Domain
-METERED_DOMAIN = 'react-app.metered.live'
+METERED_DOMAIN = 'app_name.metered.live'
 
 print("https://"+METERED_DOMAIN + "/api/v1/room" +
       "?secretKey="+METERED_SECRET_KEY)
